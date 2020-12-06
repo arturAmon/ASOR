@@ -1,5 +1,7 @@
 #include <sys/utsname.h> //utsname
 #include <stdio.h>       //printf
+#include <errno.h>       //errno
+#include <string.h>      //strerror
 
 int main()
 {
@@ -8,7 +10,7 @@ int main()
 
     if (uname(&unameSalida) != 0)
     {
-        printf("Error en setuid con numero %i: %s\n, errno");
+        printf("Error en setuid con numero %i: %s\n", errno, strerror(errno));
         return -1;
     }
     printf("System data: \n");

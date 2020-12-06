@@ -6,7 +6,7 @@
 int main(){
     
     if(setuid(0) != 0){
-        printf("Error en setuid con numero %i: %s\n, errno");
+        printf("Error en setuid con numero %i: %s\n", errno, strerror(errno));
     }
     return 1;
 }
