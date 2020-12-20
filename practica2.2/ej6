@@ -1,0 +1,8 @@
+//umask 027
+
+//mkdir directorioNuevo
+//drwxr-x--- 2 cursoredes cursoredes    6 Dec 20 16:38 directorioNuevo
+
+//touch ficheroNuevo
+//-rw-r----- 1 cursoredes cursoredes    0 Dec 20 16:40 ficheroNuevo
+

@@ -1,0 +1,6 @@
+mkdir prueba
+chmod -x prueba
+cd prueba
+
+Salida:
+    bash: cd: prueba/: Permission denied

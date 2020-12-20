@@ -1,0 +1,2 @@
+chmod 645 fichero #octal
+chmod u+rw-x,g+r-wx,o+rx-w dicheroCHMODprueba #simbolica
